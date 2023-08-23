@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+        git : 로컬에서 파일을 관리하는 프로그램. 다른 사람과 협업이 불가능하다.
+        로컬을 기반으로 하기 때문에 컴퓨터에 이상이 생겨 포맷을 하거나 데이터가 날라가면 복구 불가능.
+
+        github : 서버에서 파일을 관리하는 프로그램.
+        다른 사람과 협업이 가능하며, 파일을 버전별로 관리하도록 만든 프로그램.
+        로컬에서만 사용 가능했던 git을 확장시켜 서버에서 프로젝트를 관리한다.
+
+        git은 세 가지의 작업 형태로 나눠진다.
+        1. work directory : 처음 프로젝트 파일들이 생성되는 곳
+        2. staging area : work directory에서 작업한 파일들의 히스토리가 저장되는 곳
+        3. git repository : staging area에서 최종적으로 올라온 프로젝트가 저장되는 곳
+
+        프로젝트 폴더에서 수정한 파일들을 staging-area로 옮긴 후에
+        commit이라는 명령어를 입력하면 repositorydp 에 파일이 올라오게 됨 (local까지의 작업 순서)
+        서버에 올리기 위해서는 최종적으로 push라는 명렁어를 통해 버전관리 툴에 업로드를 해야 한다.
+        push가 된 이후에는 파일을 취소 할 수 없고, 버전으로 이전 내역을 가져와야 한다.
+        이번 버전으로 돌아갈 땐 commit 상태에서 checkout을 통해 이전으로 돌아가야 한다.
+
+        push가 완료된 파일은 pull이라는 명령어를 통해 파일을 다운받을 수 있다.
+
+        commit을 할 때 각각의 고유 아이디가 배정되는데 아이디를 불러오는(찾는)방식으로 버전관리를 하게 된다.
+        이 때 아이디뿐만 아니라 메시지, 작업자, 작업일자 등을 기록해 더 정확한 관리를 가능하게 한다.
+
+
+        -work directory에서 두 가지 형태로 나누어짐. git에 업로드 되어 있는 파일은 tracked파일로 분류한다.
+        tracked중에서 수정이 된 파일은 modified로 분류하며, 수정되지 않은 파일은 unmodified로 분류한다.
+
+        여기서 modified파일이 staging area 로 옮겨질 수 있다.
+        새로 파일을 생성했거나 파일에 대한 정보가 아예 없는 상태라면 untracked가 된다.
+     -->
+     <h1 class="title">hi</h1>
+</body>
+</html>
